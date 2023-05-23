@@ -1,0 +1,32 @@
+.content{
+    font-size: 1.5em;
+    margin-top: 50px;
+    text-align: center;
+}
+.content button{
+    font-size: 1em;
+    background-color: blue;
+    color: white;
+    font-weight: lighter;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.inline{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline .delete{
+    height: 50%;
+    margin-left: 25px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+.completed {
+    text-decoration: line-through;
+}  
